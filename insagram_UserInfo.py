@@ -1,2 +1,2 @@
-username = "Username"
-password = "Password"
+username = "Username" #"enter your username"
+password = "Password" #"enter your password"
