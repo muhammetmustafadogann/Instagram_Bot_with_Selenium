@@ -9,7 +9,7 @@ class Instagram():
         self.browserProfile.add_experimental_option('prefs',{'intl.accept_languages':'en,en_US'})    
         self.username = username
         self.password = password
-        self.browser = webdriver.Chrome('chromedriver.exe',chrome_options=self.browserProfile)
+        self.browser = webdriver.Chrome('chromedriver.exe',chrome_options=self.browserProfile) #if you are using Firefox change .Chrome(...) --> .Firefox(...)
     def signIn(self):
         self.browser.get("https://www.instagram.com")
         time.sleep(2)
